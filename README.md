@@ -1,7 +1,7 @@
 # Swarm of Swarms: Evolutionary Functional for Embodied AI (v4.0)
 
-[![DOI](https://zenodo.org)](https://doi.org)
-[![License: MIT](https://shields.io)](https://opensource.org)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24248533.svg)](https://doi.org/10.5281/zenodo.24248533)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.txt)
 
 **Mutational Evolutionary Formula for Distributed Agent Networks and Embodied AI** — an engineering-mathematical specification and simulation prototype of a decentralized homeostatic architecture.
 
@@ -89,6 +89,6 @@ If you reference the Evolutionary Functional $L_{\text{evo}}'''(S_t)$, the hardw
   publisher    = {Zenodo},
   version      = {v4.0.1},
   doi          = {10.5281/zenodo.24248533},
-  url          = {https://doi.org}
+  url          = {https://doi.org/10.5281/zenodo.24248533}
 }
 ```
