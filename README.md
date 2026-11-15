@@ -1,5 +1,8 @@
 # Swarm of Swarms: Evolutionary Functional for Embodied AI (v4.0)
 
+[![DOI](https://zenodo.org)](https://doi.org)
+[![License: MIT](https://shields.io)](https://opensource.org)
+
 **Mutational Evolutionary Formula for Distributed Agent Networks and Embodied AI** — an engineering-mathematical specification and simulation prototype of a decentralized homeostatic architecture.
 
 ![Simulation Results](swarm_v4_simulation.png)
@@ -72,3 +75,20 @@ This specification and simulation were developed using a **human-in-the-loop mul
 * **Human Coordinator & Architect:** Defined the conceptual direction, problem constraints, cross-agent orchestration, and final system integration.
 * **AI Synthesis Agent (Generator):** Formulated the mathematical functional $\mathcal{L}_{\text{evo}}'''(S_t)$, thermodynamic efficiency metrics ($\text{Bit/J}$), Softplus boundary conditions, and simulation code.
 * **AI Verification Agent (Auditor):** Conducted independent mathematical auditing, edge-case validation, and formal consistency checks across specification iterations.
+
+## 6. Citation
+
+If you reference the Evolutionary Functional $L_{\text{evo}}'''(S_t)$, the hardware-isolated verification architecture ($V_{\text{phys}}$), or the simulation benchmark in your research, please cite this release via Zenodo:
+
+```bibtex
+@software{flux_architect_2026_swarm_v4,
+  author       = {Flux-Architect},
+  title        = {{Swarm of Swarms: Evolutionary Functional for Embodied AI (v4.0)}},
+  month        = nov,
+  year         = 2026,
+  publisher    = {Zenodo},
+  version      = {v4.0.1},
+  doi          = {10.5281/zenodo.24248533},
+  url          = {https://doi.org}
+}
+```
