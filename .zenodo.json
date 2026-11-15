@@ -1,0 +1,36 @@
+{
+  "title": "Swarm of Swarms: Evolutionary Functional for Embodied AI (v4.0)",
+  "upload_type": "software",
+  "description": "Mathematical specification, hardware-isolated physical verification architecture (V_phys), and Python simulation benchmark for the Evolutionary Functional L_evo'''(S_t) in Embodied AI and multi-agent swarm systems. Evaluates thermodynamic efficiency (Bit/J), Kullback-Leibler divergence against sensor-grounded physical verification, structural bifurcation B(grad S_t), and holographic inheritance H(K(S_t)).",
+  "creators": [
+    {
+      "name": "Flux-Architect",
+      "affiliation": "Independent Research"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "AI Synthesis Agent (Generator)",
+      "type": "Researcher"
+    },
+    {
+      "name": "AI Verification Agent (Auditor)",
+      "type": "DataCurator"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "active-inference",
+    "ai-safety",
+    "embodied-ai",
+    "evolutionary-algorithms",
+    "free-energy-principle",
+    "information-theory",
+    "multi-agent-systems",
+    "python-simulation",
+    "swarm-intelligence",
+    "thermodynamics"
+  ],
+  "notes": "Developed via a triadic Human-AI methodology: Human Coordinator & Architect, AI Synthesis Agent (Generator), and AI Verification Agent (Auditor).",
+  "access_right": "open"
+}
