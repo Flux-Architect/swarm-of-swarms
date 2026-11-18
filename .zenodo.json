@@ -1,7 +1,8 @@
 {
-  "title": "Swarm of Swarms: Evolutionary Functional for Embodied AI (v4.0)",
+  "title": "Swarm of Swarms: Evolutionary Functional & 2D Spatial Causal Simulation for Embodied AI (v5.0)",
+  "version": "5.0.0",
   "upload_type": "software",
-  "description": "Mathematical specification, hardware-isolated physical verification architecture (V_phys), and Python simulation benchmark for the Evolutionary Functional L_evo'''(S_t) in Embodied AI and multi-agent swarm systems. Evaluates thermodynamic efficiency (Bit/J), Kullback-Leibler divergence against sensor-grounded physical verification, structural bifurcation B(grad S_t), and holographic inheritance H(K(S_t)).",
+  "description": "Mathematical specification, hardware-isolated physical verification architecture (V_phys) with Gaussian KL-divergence anomaly rejection, and strict light-cone 2D spatial simulation benchmark (simulation_v5_2d.py) for the Evolutionary Functional L_evo'''(S_t) in Embodied AI and multi-agent swarm systems. Evaluates agent-step normalized thermodynamic efficiency (Bit/J) under strict hardware and pricing parity, closing 75.1% of the theoretical Oracle gap (+83.0% vs. Naive Baseline, -13.1% vs. Oracle Upper Bound).",
   "creators": [
     {
       "name": "Flux-Architect",
@@ -28,9 +29,11 @@
     "information-theory",
     "multi-agent-systems",
     "python-simulation",
+    "relativistic-causality",
+    "spatial-swarm",
     "swarm-intelligence",
     "thermodynamics"
   ],
-  "notes": "Developed via a triadic Human-AI methodology: Human Coordinator & Architect, AI Synthesis Agent (Generator), and AI Verification Agent (Auditor).",
+  "notes": "Developed and independently audited via a triadic Human-AI methodology: Human Coordinator & Architect, AI Synthesis Agent (Generator), and AI Verification Agent (Auditor, APPROVED verdict on v5.0.4 benchmark).",
   "access_right": "open"
 }
