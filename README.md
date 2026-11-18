@@ -1,6 +1,6 @@
 # Swarm of Swarms: Evolutionary Functional & 2D Spatial Causal Simulation for Embodied AI (v5.0)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24248533.svg)](https://doi.org/10.5281/zenodo.24248533)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24355424.svg)](https://doi.org/10.5281/zenodo.24355424)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.txt)
 
 **Mutational Evolutionary Formula for Distributed Agent Networks and Embodied AI** — an engineering-mathematical specification and simulation prototype of a decentralized homeostatic architecture.
