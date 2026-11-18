@@ -23,20 +23,20 @@ This specification proposes shifting from external containment to a **teleologic
 ### 2.1. Smoothed Physical Informational Shift ($C^\infty$)
 To eliminate zero-gradient "dead zones" in low-signal environments (e.g., deep space), a smooth `Softplus` activation is used:
 
-$$\Delta I_{\text{phys}} = \text{Softplus}\left(\log_2 \frac{\Vert\Delta M_{\text{phys}}\Vert}{\sigma_{\text{meas}}}\right) \quad [\text{Bit}]$$
+$$\Delta I_{\text{phys}} = \text{Softplus}\left(\log_2 \frac{\lVert \Delta M_{\text{phys}} \rVert}{\sigma_{\text{meas}}}\right) \quad [\text{Bit}]$$
 
 ### 2.2. Evolutionary Spiral Functional
-$$\mathcal{L}_{\text{evo}}'''(S_t) = \alpha \cdot D_{\text{KL}}\big(V_{\text{phys}}(P_{\text{sensor}}) \,\Vert\, Q(S_t)\big) + \beta \cdot B(\nabla S_t) + \gamma \cdot H(K(S_t)) + \nu \cdot I\big(Q(S_t); P_{\text{sensor}}\big) - \lambda \cdot \frac{\Delta E_{\text{total}}}{\Delta I_{\text{phys}} + \varepsilon} - \mu \cdot \big(C_{\text{auto}}(Q(S_t)) - C_{\text{target}}\big)^2$$
+$$\mathcal{L}_{\text{evo}}'''(S_t) = \alpha \cdot D_{\text{KL}}\left(V_{\text{phys}}(P_{\text{sensor}}) \parallel Q(S_t)\right) + \beta \cdot B(\nabla S_t) + \gamma \cdot H(K(S_t)) + \nu \cdot I\left(Q(S_t); P_{\text{sensor}}\right) - \lambda \cdot \frac{\Delta E_{\text{total}}}{\Delta I_{\text{phys}} + \varepsilon} - \mu \cdot \left(C_{\text{auto}}(Q(S_t)) - C_{\text{target}}\right)^2$$
 
-* **Inhale ($D_{\text{KL}}$):** Divergence between the independent physical sensor loop and the swarm's internal model.
-* **Branching ($B(\nabla S_t)$):** Bifurcation of specialized sub-agents as complexity gradients rise, accounting for relativistic signal latency $c$.
-* **Inheritance ($H(K(S_t))$):** Holographic dispersion of the compressed logic genome across network nodes.
-* **Effective Complexity ($I(Q; P)$):** Mutual information with real physical sensors (prevents the "white noise" trap).
-* **Thermodynamic Penalty ($\Delta E / \Delta I$):** Accounts for total energy costs (computation, thermal dissipation, mechanical actuation).
-* **Criticality Regime ($1/f$ spectrum):** Anchors system dynamics near natural "pink noise" $C_{\text{target}}$ (prevents lock-in within a virtual "dark room").
+* **Inhale** ($D_{\text{KL}}$): Divergence between the independent physical sensor loop and the swarm's internal model.
+* **Branching** ($B(\nabla S_t)$): Bifurcation of specialized sub-agents as complexity gradients rise, accounting for relativistic signal latency $c$.
+* **Inheritance** ($H(K(S_t))$): Holographic dispersion of the compressed logic genome across network nodes.
+* **Effective Complexity** ($I(Q; P)$): Mutual information with real physical sensors (prevents the "white noise" trap).
+* **Thermodynamic Penalty** ($\Delta E / \Delta I$): Accounts for total energy costs (computation, thermal dissipation, mechanical actuation).
+* **Criticality Regime** ($1/f$ spectrum): Anchors system dynamics near natural "pink noise" $C_{\text{target}}$ (prevents lock-in within a virtual "dark room").
 
 ### 2.3. Transition Rule with Adaptive Survival Barriers
-$$S_{t+1} = \arg\max_S \Big[ \mathcal{L}_{\text{evo}}'''(S_t) - \kappa \cdot \text{Softplus}\Big(\theta_{\text{energy}}(E_{\text{avail}}) - \frac{\Delta I_{\text{phys}}}{\Delta E_{\text{total}}}\Big) - \xi \cdot \text{Softplus}\Big(\theta_{\text{rate}}(\text{Env}_{\text{dyn}}) - \frac{\Delta I_{\text{phys}}}{\Delta t}\Big) \Big]$$
+$$S_{t+1} = \arg\max_S \left[ \mathcal{L}_{\text{evo}}'''(S_t) - \kappa \cdot \text{Softplus}\left(\theta_{\text{energy}}(E_{\text{avail}}) - \frac{\Delta I_{\text{phys}}}{\Delta E_{\text{total}}}\right) - \xi \cdot \text{Softplus}\left(\theta_{\text{rate}}(\text{Env}_{\text{dyn}}) - \frac{\Delta I_{\text{phys}}}{\Delta t}\right) \right]$$
 
 ### 2.4. Hardware Security Axiom (Physical Irreducibility)
 The verifier $V_{\text{phys}}$ is isolated on a dedicated SoC with an independent power supply, asynchronous clock generator, unidirectional data bus, and a one-time programmable calibration register $\sigma_{\text{meas}}$ (`write-protection fuse`) coupled with a heterogeneous sensor array.
