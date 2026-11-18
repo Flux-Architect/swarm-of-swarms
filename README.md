@@ -28,10 +28,10 @@ $$\Delta I_{\text{phys}} = \text{Softplus}\left(\log_2 \frac{\lVert \Delta M_{\t
 ### 2.2. Evolutionary Spiral Functional
 $$\mathcal{L}_{\text{evo}}'''(S_t) = \alpha \cdot D_{\text{KL}}\left(V_{\text{phys}}(P_{\text{sensor}}) \parallel Q(S_t)\right) + \beta \cdot B(\nabla S_t) + \gamma \cdot H(K(S_t)) + \nu \cdot I\left(Q(S_t); P_{\text{sensor}}\right) - \lambda \cdot \frac{\Delta E_{\text{total}}}{\Delta I_{\text{phys}} + \varepsilon} - \mu \cdot \left(C_{\text{auto}}(Q(S_t)) - C_{\text{target}}\right)^2$$
 
-* **Inhale** ($D_{\text{KL}}$): Divergence between the independent physical sensor loop and the swarm's internal model.
-* **Branching** ($B(\nabla S_t)$): Bifurcation of specialized sub-agents as complexity gradients rise, accounting for relativistic signal latency $c$.
-* **Inheritance** ($H(K(S_t))$): Holographic dispersion of the compressed logic genome across network nodes.
-* **Effective Complexity** ($I(Q; P)$): Mutual information with real physical sensors (prevents the "white noise" trap).
+* **Inhale** ($`D_{\text{KL}}`$): Divergence between the independent physical sensor loop and the swarm's internal model.
+* **Branching** ($`B(\nabla S_t)`$): Bifurcation of specialized sub-agents as complexity gradients rise, accounting for relativistic signal latency $c$.
+* **Inheritance** ($`H(K(S_t))`$): Holographic dispersion of the compressed logic genome across network nodes.
+* **Effective Complexity** ($`I(Q; P)`$): Mutual information with real physical sensors (prevents the "white noise" trap).
 * **Thermodynamic Penalty** ($\Delta E / \Delta I$): Accounts for total energy costs (computation, thermal dissipation, mechanical actuation).
 * **Criticality Regime** ($1/f$ spectrum): Anchors system dynamics near natural "pink noise" $C_{\text{target}}$ (prevents lock-in within a virtual "dark room").
 
