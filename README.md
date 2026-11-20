@@ -1,4 +1,4 @@
-# Swarm of Swarms: Evolutionary Functional & 2D Spatial Causal Simulation for Embodied AI (v5.1)
+# Swarm of Swarms: Evolutionary Functional & 2D Spatial Causal Simulation for Embodied AI (v5.1.1)
 
 [![DOI](https://shields.io)](https://zenodo.org/records/24407119)
 [![License: MIT](https://shields.io)](LICENSE.txt)
@@ -120,7 +120,7 @@ If you reference the Evolutionary Functional `L_evo'''(S_t)`, the hardware-isola
   month        = nov,
   year         = 2026,
   publisher    = {Zenodo},
-  version      = {v5.1.0},
+  version      = {v5.1.1},
   doi          = {10.5281/zenodo.24407119},
   url          = {https://zenodo.org/records/24407119}
 }
