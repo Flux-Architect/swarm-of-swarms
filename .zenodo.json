@@ -1,8 +1,7 @@
 {
-  "title": "Swarm of Swarms: Evolutionary Functional & 2D Spatial Causal Simulation for Embodied AI (v5.0)",
-  "version": "5.0.0",
+  "title": "Swarm of Swarms: Evolutionary Functional & 2D Spatial Causal Simulation for Embodied AI (v5.1)",
   "upload_type": "software",
-  "description": "Mathematical specification, hardware-isolated physical verification architecture (V_phys) with Gaussian KL-divergence anomaly rejection, and strict light-cone 2D spatial simulation benchmark (simulation_v5_2d.py) for the Evolutionary Functional L_evo'''(S_t) in Embodied AI and multi-agent swarm systems. Evaluates agent-step normalized thermodynamic efficiency (Bit/J) under strict hardware and pricing parity, closing 75.1% of the theoretical Oracle gap (+83.0% vs. Naive Baseline, -13.1% vs. Oracle Upper Bound).",
+  "description": "Mathematical specification, AI Safety alignment framework (intrinsic thermodynamic grounding over external containment), hardware-isolated physical verification architecture (V_phys) with Gaussian KL-divergence anomaly rejection, and zero-relay 2D spatial causal simulation benchmark (simulation_v5_1_2d.py) with smooth sigmoid survival selection for the Evolutionary Functional L_evo'''(S_t) in Embodied AI and multi-agent swarm systems. Evaluates agent-step normalized thermodynamic efficiency (Bit/J) under strict hardware and pricing parity, achieving 4.57 +- 0.06 Bit/J and closing 78.8% of the theoretical Oracle gap (+87.0% vs. Naive Baseline, -11.1% vs. Oracle Upper Bound).",
   "creators": [
     {
       "name": "Flux-Architect",
@@ -34,6 +33,6 @@
     "swarm-intelligence",
     "thermodynamics"
   ],
-  "notes": "Developed and independently audited via a triadic Human-AI methodology: Human Coordinator & Architect, AI Synthesis Agent (Generator), and AI Verification Agent (Auditor, APPROVED verdict on v5.0.4 benchmark).",
+  "notes": "Developed and independently audited via a triadic Human-AI methodology: Human Coordinator & Architect, AI Synthesis Agent (Generator), and AI Verification Agent (Auditor, APPROVED verdict on v5.1.0 benchmark).",
   "access_right": "open"
 }
