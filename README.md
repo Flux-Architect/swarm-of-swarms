@@ -58,9 +58,9 @@ Comparison of a baseline swarm vs. the `v4.0` architecture over 100 evolutionary
 * **Total Energy Expenditure:** Baseline = `65.2 J` | `v4.0` = **`28.3 J`**
 ---
 
-## 3.1. 2D Spatial Causal Simulation (`v5.0` — Audited Hardware-Parity Benchmark)
+### 3.1. 2D Spatial Causal Simulation (`v5.0` — Audited Hardware-Parity Benchmark)
 
-To validate the evolutionary functional in continuous physical space ($`\Omega =^2`$, $`N_0 = 80`$, $`T = 150`$ steps), `simulation_v5_2d.py` evaluates **Swarm of Swarms v5.0** under **100% hardware, sensor-noise ($`\sigma_{\text{meas}} = 0.5`$), and channel-pricing parity** against both a vulnerable **Naive Baseline** (exposed to the Dark Room pseudo-entropy attractor) and a theoretical **Oracle Upper Bound** (an idealized baseline with the Dark Room trap disabled in the environment):
+To validate the evolutionary functional in continuous physical space ($`\Omega = \mathbb{R}^2`$, $`N_0 = 80`$, $`T = 150`$ steps), `simulation_v5_2d.py` evaluates **Swarm of Swarms v5.0** under **100% hardware, sensor-noise ($`\sigma_{\text{meas}} = 0.5`$), and channel-pricing parity** against both a vulnerable **Naive Baseline** (exposed to the Dark Room pseudo-entropy attractor) and a theoretical **Oracle Upper Bound** (an idealized baseline with the Dark Room trap disabled in the environment):
 
 * **Gaussian KL-Divergence Anomaly Rejection:** Hardware-isolated $`V_{\text{phys}}`$ computes $`D_{\text{KL}}\big(\mathcal{N}(\mu_{\text{phys}}, \sigma^2) \parallel \mathcal{N}(\mu_{\text{virt}}, \sigma^2)\big)`$, driving trust in the virtual channel to $`0.000`$ inside the Dark Room and reducing trap occupancy from **58.8%** (Naive) to **1.2%** (`v5.0`).
 * **Strict Light-Cone Causality:** Inter-agent communication enforces $`\tau_{ij} = \lceil d_{ij} / c \rceil \ge 1`$ step ($`0.0\%`$ instantaneous links; $`82.1\%`$ at $`\tau = 1`$, $`17.9\%`$ at $`\tau \ge 2`$, evaluated via current pairwise distance approximation at sub-relativistic speeds $`v_{\text{pre-clamp}} < c = 15.0`$).
@@ -87,29 +87,31 @@ python simulation.py        # 1D evolutionary functional prototype (v4.0)
 python simulation_v5_2d.py  # 2D spatial causal & hardware-parity benchmark (v5.0)
 ```
 
-```
+---
 
 ## 5. Acknowledgments & Multi-Agent Methodology
 
 This specification and simulation were developed using a **human-in-the-loop multi-AI research workflow**, reflecting the core principles of the *Swarm of Swarms* architecture itself:
 
 * **Human Coordinator & Architect:** Defined the conceptual direction, problem constraints, cross-agent orchestration, and final system integration.
-* **AI Synthesis Agent (Generator):** Formulated the mathematical functional $\mathcal{L}_{\text{evo}}'''(S_t)$, thermodynamic efficiency metrics ($\text{Bit/J}$), Softplus boundary conditions, and simulation code.
+* **AI Synthesis Agent (Generator):** Formulated the mathematical functional $`\mathcal{L}_{\text{evo}}'''(S_t)`$, thermodynamic efficiency metrics ($`\text{Bit/J}`$), Softplus boundary conditions, and simulation code.
 * **AI Verification Agent (Auditor):** Conducted independent mathematical auditing, edge-case validation, and formal consistency checks across specification iterations.
+
+---
 
 ## 6. Citation
 
-If you reference the Evolutionary Functional $L_{\text{evo}}'''(S_t)$, the hardware-isolated verification architecture ($V_{\text{phys}}$), or the simulation benchmark in your research, please cite this release via Zenodo:
+If you reference the Evolutionary Functional $`L_{\text{evo}}'''(S_t)`$, the hardware-isolated verification architecture ($`V_{\text{phys}}`$), or the simulation benchmark in your research, please cite this release via Zenodo:
 
 ```bibtex
-  @flux_architect_2026_swarm_v5,
+@software{flux_architect_2026_swarm_v5,
   author       = {Flux-Architect},
   title        = {{Swarm of Swarms: Evolutionary Functional & 2D Spatial Causal Simulation for Embodied AI (v5.0)}},
   month        = nov,
   year         = 2026,
   publisher    = {Zenodo},
   version      = {v5.0.0},
-  doi          = {10.5281/zenodo.24248533},
+  doi          = {10.5281/zenodo.24355424},
   url          = {https://doi.org/10.5281/zenodo.24248533}
 }
 ```
