@@ -112,6 +112,6 @@ If you reference the Evolutionary Functional $`L_{\text{evo}}'''(S_t)`$, the har
   publisher    = {Zenodo},
   version      = {v5.0.0},
   doi          = {10.5281/zenodo.24355424},
-  url          = {https://doi.org/10.5281/zenodo.24248533}
+  url          = {https://doi.org/10.5281/zenodo.24355424}
 }
 ```
