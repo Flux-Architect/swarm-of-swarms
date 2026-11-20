@@ -1,6 +1,6 @@
 # Swarm of Swarms: Evolutionary Functional & 2D Spatial Causal Simulation for Embodied AI (v5.1)
 
-[![DOI](https://shields.io)](https://doi.org)
+[![DOI](https://shields.io)](https://zenodo.org/records/24406664)
 [![License: MIT](https://shields.io)](LICENSE.txt)
 
 **Mutational Evolutionary Formula for Distributed Agent Networks and Embodied AI** — an engineering-mathematical specification, AI Safety alignment framework, and 2D spatial causal simulation prototype of a decentralized homeostatic architecture.
@@ -111,7 +111,7 @@ This specification and simulation were developed using a **human-in-the-loop mul
 
 ## 6. Citation
 
-If you reference the Evolutionary Functional $\mathcal{L}_{\text{evo}}'''(S_t)$, the hardware-isolated verification architecture ($V_{\text{phys}}$), or the 2D simulation benchmark in your research, please cite this project via Zenodo (update DOI to the `v5.1.0` version record once minted):
+If you reference the Evolutionary Functional `L_evo'''(S_t)`, the hardware-isolated verification architecture (`V_phys`), or the 2D simulation benchmark in your research, please cite this release via Zenodo:
 
 ```bibtex
 @software{flux_architect_2026_swarm_v5_1,
@@ -121,8 +121,7 @@ If you reference the Evolutionary Functional $\mathcal{L}_{\text{evo}}'''(S_t)$,
   year         = 2026,
   publisher    = {Zenodo},
   version      = {v5.1.0},
-  doi          = {10.5281/zenodo.24355424},
-  url          = {https://doi.org/10.5281/zenodo.24355424}
+  doi          = {10.5281/zenodo.24406664},
+  url          = {https://zenodo.org/records/24406664}
 }
 ```
-
