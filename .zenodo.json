@@ -1,38 +1,14 @@
 {
-  "title": "Swarm of Swarms: Evolutionary Functional & 2D Spatial Causal Simulation for Embodied AI (v5.1)",
+  "title": "Swarm of Swarms: Evolutionary Functional & 2D/3D Spatial Causal Simulation for Embodied AI",
   "upload_type": "software",
-  "description": "Mathematical specification, AI Safety alignment framework (intrinsic thermodynamic grounding over external containment), hardware-isolated physical verification architecture (V_phys) with Gaussian KL-divergence anomaly rejection, and zero-relay 2D spatial causal simulation benchmark (simulation_v5_1_2d.py) with smooth sigmoid survival selection for the Evolutionary Functional L_evo'''(S_t) in Embodied AI and multi-agent swarm systems. Evaluates agent-step normalized thermodynamic efficiency (Bit/J) under strict hardware and pricing parity, achieving 4.57 +- 0.06 Bit/J and closing 78.8% of the theoretical Oracle gap (+87.0% vs. Naive Baseline, -11.1% vs. Oracle Upper Bound).",
+  "description": "Mathematical specification, AI Safety alignment framework, and zero-relay 2D/3D spatial causal simulation benchmarks (simulation_v5_1_2d.py, simulation_v6_0_3d.py) for Embodied AI and multi-agent swarm systems (achieving 4.57 +- 0.06 Bit/J in 2D and 3.73 +- 0.08 Bit/J in 3D).",
   "creators": [
     {
       "name": "Flux-Architect",
       "affiliation": "Independent Research"
     }
   ],
-  "contributors": [
-    {
-      "name": "AI Synthesis Agent (Generator)",
-      "type": "Researcher"
-    },
-    {
-      "name": "AI Verification Agent (Auditor)",
-      "type": "DataCurator"
-    }
-  ],
   "license": "MIT",
-  "keywords": [
-    "active-inference",
-    "ai-safety",
-    "embodied-ai",
-    "evolutionary-algorithms",
-    "free-energy-principle",
-    "information-theory",
-    "multi-agent-systems",
-    "python-simulation",
-    "relativistic-causality",
-    "spatial-swarm",
-    "swarm-intelligence",
-    "thermodynamics"
-  ],
-  "notes": "Developed and independently audited via a triadic Human-AI methodology: Human Coordinator & Architect, AI Synthesis Agent (Generator), and AI Verification Agent (Auditor, APPROVED verdict on v5.1.0 benchmark).",
+  "notes": "Developed and independently audited via a triadic Human-AI methodology (APPROVED verdict on v5.1 2D and v6.0.0 3D benchmarks).",
   "access_right": "open"
 }
