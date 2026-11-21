@@ -1,6 +1,6 @@
 # Swarm of Swarms: Evolutionary Functional & 2D/3D Spatial Causal Simulation for Embodied AI
 
-[![DOI](https://zenodo.org)](https://doi.org)
+[![DOI](https://zenodo.org)](https://doi.org/10.5281/zenodo.24426908)
 [![License: MIT](https://shields.io)](LICENSE.txt)
 
 **Mutational Evolutionary Formula for Distributed Agent Networks and Embodied AI** — an engineering-mathematical specification, AI Safety alignment framework, and 2D/3D spatial causal simulation prototype of a decentralized homeostatic architecture.
@@ -130,7 +130,7 @@ If you reference the Evolutionary Functional `L_evo'''(S_t)`, the hardware-isola
   year         = 2026,
   publisher    = {Zenodo},
   version      = {v6.0.0},
-  doi          = {10.5281/zenodo.24407119},
-  url          = {https://doi.org}
+  doi          = {10.5281/zenodo.24426908},
+  url          = {https://doi.org/10.5281/zenodo.24426908}
 }
 ```
