@@ -46,7 +46,8 @@ Exponential moving average efficiency $\bar{\eta}_i(t)$ is evaluated in `Bit/J`,
 The verifier $V_{\text{phys}}$ is isolated on a dedicated SoC with an independent power supply, asynchronous clock generator, unidirectional data bus, and a write-protected calibration register $\sigma_{\text{meas}}$.
 
 ### 2.5. Zero-Leakage Non-Stationary Active Inference Extension (`v7.0.0`)
-Following an independent methodological reproduction and sensitivity audit with the **Active Inference Institute**, `v7.0.0` introduces a unified `d`-dimensional ($d \in \{2, 3\}$) zero-leakage simulation core (`swarm_v7_core.py`):
+`v7.0.0` introduces a unified `d`-dimensional ($d \in \{2, 3\}$) zero-leakage simulation core (`swarm_v7_core.py`):
+* **Strict Ground-Truth Isolation:** True source fields (`I_true_agent`, `dwell_true`) are used **exclusively** inside external metric accounting (`tot_I`) and never enter agent controllers, novelty counters, or evolutionary selection rules. Verified via ground-truth shuffling injection tests yielding **150/150 bit-identical step-by-step position hashes** under shuffled ground truth.
 * **Strict Ground-Truth Isolation:** True source fields (`I_true_agent`, `dwell_true`) are used **exclusively** inside external metric accounting (`tot_I`) and never enter agent controllers, novelty counters, or evolutionary selection rules. Verified via ground-truth shuffling injection tests yielding **150/150 bit-identical step-by-step position hashes** under shuffled ground truth.
 * **Unified 1-Channel Noisy Sensory Protocol:** All decentralized controllers (`Naive`, `Naive + 1D KL`, and `Active Inference EFE`) share a single noisy physical observation channel with physical decoy leakage $\eta_{\text{leak}} = 0.45$ and role-specific observable thresholds:
   * $y_{\text{phys}} > 2.6$: baseline gradient detection (`Naive` / `1D KL`) and LLR crowding gate;
@@ -146,7 +147,6 @@ This specification and simulation were developed using a **human-in-the-loop mul
 * **Human Coordinator & Architect (`Flux-Architect`):** Defined the conceptual direction, AI Safety framing, problem constraints, cross-agent orchestration, and final system integration.
 * **AI Synthesis Agent (Generator):** Formulated the mathematical functional $\mathcal{L}_{\text{evo}}'''(S_t)$, dimensionally consistent sigmoid thermodynamic selection, and 1D/2D/3D simulation engines.
 * **AI Verification Agent (Auditor):** Conducted independent mathematical auditing, edge-case validation, ground-truth shuffling injection tests, and formal consistency checks across specification iterations (`APPROVED` verdict on `v5.0.4`, `v5.1`, `v6.0.0`, and `v7.0.0`).
-* **External Community Review:** We gratefully acknowledge **Daniel Friedman** and the **Active Inference Institute** for their independent code reproduction, sensitivity audit, and architectural feedback that directly shaped the zero-leakage `v7.0.0` formulation.
 
 ---
 
