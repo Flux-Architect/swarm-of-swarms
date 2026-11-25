@@ -173,7 +173,8 @@ If you reference the Evolutionary Functional `L_evo'''(S_t)`, the hardware-isola
   publisher    = {Zenodo},
   version      = {v7.1.0},
   doi          = {10.5281/zenodo.24248532},
-  url          = {https://doi.org}
+  url          = {https://doi.org/10.5281/zenodo.24248532}
+
 }
 ```
 
