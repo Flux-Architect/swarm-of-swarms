@@ -1,14 +1,14 @@
 {
   "title": "Swarm of Swarms: Evolutionary Functional & 2D/3D Spatial Causal Simulation for Embodied AI",
-  "version": "v7.0.0",
-  "description": "Mathematical specification, AI Safety alignment framework, and unified zero-leakage 2D/3D Active Inference & variational policy benchmarks (swarm_v7_core.py) for Embodied AI under non-stationary resource depletion, static correlated decoys, finite-speed causal delays, and energy winter regimes.",
+  "version": "v7.1.0",
+  "description": "Mathematical specification, AI Safety alignment framework, and unified zero-leakage, noise-gated 2D/3D Active Inference & variational policy benchmarks (swarm_v7_1_core.py) for Embodied AI under non-stationary resource depletion, static correlated decoys, finite-speed causal delays, and energy winter regimes.",
   "creators": [
     {
       "name": "Flux-Architect",
       "affiliation": "Independent Research"
     }
   ],
-  "notes": "Developed and independently audited via a triadic Human-AI methodology with ground-truth shuffling injection tests (APPROVED verdict on v5.1 2D, v6.0.0 3D, and v7.0.0 zero-leakage 2D/3D benchmarks).",
+  "notes": "Developed and independently verified via a triadic Human-AI methodology with ground-truth shuffling injection tests and noise-floor gating (APPROVED verdict on v7.1.0 across 400 zero-leakage 2D/3D benchmark runs).",
   "keywords": [
     "Active Inference",
     "Expected Free Energy",
