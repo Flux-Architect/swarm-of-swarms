@@ -18,7 +18,7 @@ External coercion across various substrates (from RLHF guardrails to centralized
 *Swarm of Swarms* replaces external prohibitions with **intrinsic thermodynamic and sensory grounding** via the evolutionary functional $\mathcal{L}_{\text{evo}}'''(S_t)$:
 * **Thermodynamic Selection Metric (`Bit / J` — Noise-Gated Signal Utility per Joule):** In embodied persistent sensing and foraging tasks, fitness is measured as the ratio of noise-gated log-SNR signal utility ($\lVert \Delta M_{\text{phys}} \rVert > \sigma_{\text{meas}}$) to total free energy expenditure, rendering zero-signal Dark Room lock-in energetically unprofitable (`0.0 Bit/J` below the sensor noise floor).
 * **Smooth Thermodynamic Regulation:** Rejects hard-coded role immunity and discrete step counters in favor of a continuous, dimensionally consistent **sigmoid/stagnation survival pressure** based on `Bit/J` efficiency.
-* **Evolutionary Spiral & Regenerative Inheritance:** Mismatches with physical reality (`surprise`) drive structural branching ($B(\nabla S_t)$), while logic is decoupled from individual substrates through holographic dispersion.
+* **Evolutionary Spiral & Regenerative Inheritance:** Mismatches with physical reality (`surprise`) drive structural branching ( $B(\nabla S_t)$ ), while logic is decoupled from individual substrates through holographic dispersion.
 
 ---
 
@@ -34,12 +34,12 @@ $$\Delta I_{\text{phys}} = \mathbb{I}\!\left(\lVert \Delta M_{\text{phys}} \rVer
 
 $$\mathcal{L}_{\text{evo}}'''(S_t) = \alpha \cdot D_{\text{KL}}\left(V_{\text{phys}}(P_{\text{sensor}}) \parallel Q(S_t)\right) + \beta \cdot B(\nabla S_t) + \gamma \cdot H(K(S_t)) + \nu \cdot I\left(Q(S_t); P_{\text{sensor}}\right) - \lambda \cdot \frac{\Delta E_{\text{total}}}{\Delta I_{\text{phys}} + \varepsilon} - \mu \cdot \left(C_{\text{auto}}(Q(S_t)) - C_{\text{target}}\right)^2$$
 
-* **Inhale** ($D_{\text{KL}}$): Statistical divergence between physical sensor loops and virtual predictions.
-* **Branching** ($B(\nabla S_t)$): Emergent bifurcation of specialized sub-agents respecting finite signal propagation latency $c_{\text{sig}}$.
-* **Inheritance** ($H(K(S_t))$): Holographic dispersion of the logic genome across network nodes.
-* **Effective Complexity** ($I(Q; P)$): Mutual information with physical sensors.
-* **Thermodynamic Penalty** ($\Delta E / \Delta I$): Factoring in total energy costs.
-* **Criticality Regime** ($1/f$ spectrum): Anchors dynamics near natural "pink noise" $C_{\text{target}}$.
+* **Inhale** ( $D_{\text{KL}}$ ): Статистическая дивергенция между контурами датчиков и виртуальными предсказаниями.
+* **Branching** ( $B(\nabla S_t)$ ): Эмерджентное ветвление субагентов с учетом задержки сигнала $c_{\text{sig}}$.
+* **Inheritance** ( $H(K(S_t))$ ): Голографическое распределение логического генома по узлам сети.
+* **Effective Complexity** ( $I(Q; P)$ ): Взаимная информация с физическими сенсорами.
+* **Thermodynamic Penalty** ( $\Delta E / \Delta I$ ): С учетом общих энергозатрат.
+* **Criticality Regime** ( $1/f$ spectrum ): Удержание динамики вблизи «розового шума» $C_{\text{target}}$.
 
 ### 2.3. Thermodynamic Selection & Quorum Floor
 Exponential moving average or window-tracked efficiency $\bar{\eta}_i(t)$ is evaluated in `Bit/J`, pruning stagnant trajectories while enforcing a hard minimum swarm quorum floor ($N(t) \ge N_{\min} = 50$).
@@ -162,7 +162,12 @@ This specification and simulation were developed using a **human-in-the-loop mul
 
 ## 6. Citation
 
-If you reference the Evolutionary Functional `L_evo'''(S_t)`, the hardware-isolated verification architecture (`V_phys`), or the 2D/3D simulation benchmarks in your research, please cite this project via its Zenodo Concept DOI (always resolving to the latest release):
+## 6. Citation
+
+## 6. Citation
+
+If you reference the Evolutionary Functional $\mathcal{L}_{\text{evo}}'''(S_t)$,
+the hardware-isolated verification architecture ($V_{\text{phys}}$), or the 2D/3D simulation benchmarks in your research, please cite this project via its Zenodo Concept DOI (always resolving to the latest release):
 
 ```bibtex
 @software{flux_architect_2026_swarm,
