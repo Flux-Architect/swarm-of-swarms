@@ -34,15 +34,16 @@ $$\Delta I_{\text{phys}} = \mathbb{I}\!\left(\lVert \Delta M_{\text{phys}} \rVer
 
 $$\mathcal{L}_{\text{evo}}'''(S_t) = \alpha \cdot D_{\text{KL}}\left(V_{\text{phys}}(P_{\text{sensor}}) \parallel Q(S_t)\right) + \beta \cdot B(\nabla S_t) + \gamma \cdot H(K(S_t)) + \nu \cdot I\left(Q(S_t); P_{\text{sensor}}\right) - \lambda \cdot \frac{\Delta E_{\text{total}}}{\Delta I_{\text{phys}} + \varepsilon} - \mu \cdot \left(C_{\text{auto}}(Q(S_t)) - C_{\text{target}}\right)^2$$
 
-* **Inhale** ( $D_{\text{KL}}$ ): Статистическая дивергенция между контурами датчиков и виртуальными предсказаниями.
-* **Branching** ( $B(\nabla S_t)$ ): Эмерджентное ветвление субагентов с учетом задержки сигнала $c_{\text{sig}}$.
-* **Inheritance** ( $H(K(S_t))$ ): Голографическое распределение логического генома по узлам сети.
-* **Effective Complexity** ( $I(Q; P)$ ): Взаимная информация с физическими сенсорами.
-* **Thermodynamic Penalty** ( $\Delta E / \Delta I$ ): С учетом общих энергозатрат.
-* **Criticality Regime** ( $1/f$ spectrum ): Удержание динамики вблизи «розового шума» $C_{\text{target}}$.
+- **Inhale** ($`D_{\text{KL}}`$): Statistical divergence metrics.
+- **Branching** ($`B(\nabla S_t)`$): Emergent sub-agent bifurcation.
+- **Inheritance** ($`H(K(S_t))`$): Holographic logic genome dispersion.
+- **Effective Complexity** ($`I(Q; P)`$): Sensor mutual information.
+- **Thermodynamic Penalty** ($`\Delta E / \Delta I`$): Energy cost factor.
+- **Criticality Regime** ($`1/f`$ spectrum): Pink noise anchoring $`C_{\text{target}}`$.
 
 ### 2.3. Thermodynamic Selection & Quorum Floor
-Exponential moving average or window-tracked efficiency $\bar{\eta}_i(t)$ is evaluated in `Bit/J`, pruning stagnant trajectories while enforcing a hard minimum swarm quorum floor ($N(t) \ge N_{\min} = 50$).
+Exponential moving average or window-tracked efficiency $`\bar{\eta}_i(t)`$ is evaluated in `Bit/J`, pruning stagnant trajectories while enforcing a hard minimum swarm quorum floor ($`N(t) \ge N_{\min} = 50`$).
+
 
 ### 2.4. Target Hardware Security Assumption (Design Architecture)
 > *Note on Simulation Scope:* Hardware isolation is a target physical deployment assumption and is not explicitly modeled at the circuit level inside the Python kinematic benchmarks.
@@ -162,12 +163,8 @@ This specification and simulation were developed using a **human-in-the-loop mul
 
 ## 6. Citation
 
-## 6. Citation
+If you reference the Evolutionary Functional $`\mathcal{L}_{\text{evo}}'''(S_t)`$, the hardware-isolated verification architecture ($`V_{\text{phys}}`$), or the 2D/3D simulation benchmarks in your research, please cite this project via its Zenodo Concept DOI (always resolving to the latest release):
 
-## 6. Citation
-
-If you reference the Evolutionary Functional $\mathcal{L}_{\text{evo}}'''(S_t)$,
-the hardware-isolated verification architecture ($V_{\text{phys}}$), or the 2D/3D simulation benchmarks in your research, please cite this project via its Zenodo Concept DOI (always resolving to the latest release):
 
 ```bibtex
 @software{flux_architect_2026_swarm,
